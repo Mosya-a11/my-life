@@ -1,8 +1,7 @@
-salam school 21
 #include <unistd.h>
 
 int main(void)
 {
-    write(1, "Hello, World!\n", 14);
+    write(1, "abc\n", 4);
     return (0);
 }
